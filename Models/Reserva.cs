@@ -15,7 +15,7 @@ namespace DesafioProjetoHospedagem.Models
 
         public void CadastrarHospedes(List<Pessoa> hospedes)
         {
-            //Código implementado para não utrapassar o limite da suite
+            //Código implementado para não ultrapassar o limite da suite
             if (Suite != null && hospedes.Count <= Suite.Capacidade)
             {
                 Hospedes = hospedes;
